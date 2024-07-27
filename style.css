@@ -1,0 +1,56 @@
+.card-container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.cards{
+    margin: 20px;
+    width: 250px;
+    border-radius: 2ms;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+    -webkit-border-radius: 2ms;
+    -moz-border-radius: 2ms;
+    -ms-border-radius: 2ms;
+    -o-border-radius: 2ms;
+}
+.card-img{
+    width: 230px;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head>.nav-bar>ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.head>.nav-bar>ul>li{
+    padding: 15px;
+    font-size: xx-large;
+    cursor: pointer;
+    
+}
+.head>.nav-bar>ul>li:hover{
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+}
+.head>.nav-bar>ul>li>a{
+    text-decoration: none;
+}
+.movie-card{
+    display: flex;
+    flex-wrap: wrap;
+}
